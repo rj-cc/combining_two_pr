@@ -46,7 +46,7 @@ describe("Testing add()", function(){
 
 
         expect(output_add).to.equal('Successfully added as index file/s.');
-        expect(output_status).to.equal('You have 0 change/s.\n');
+        expect(output_status).to.equal('You have 2 change/s.\n');
     });
 
     it('Should success with path file "*"', function(){
