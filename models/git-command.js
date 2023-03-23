@@ -29,7 +29,7 @@ class GitCommand {
             delete modified_files[path_file];
             return "Successfully added as index file/s.";
         }
-        else if(path_file == '.'){
+        else if(path_file == '.' || path_file == '*'){
             return "Successfully added as index file/s.";
         }
         else{
